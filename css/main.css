@@ -42,7 +42,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid white;
     margin: 1em 0;
     padding: 0;
 }
@@ -102,10 +102,15 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "lora", sans-serif;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  background-color: slategrey;
+}
+
+span {
+    font-family: "dancing script";
 }
 
 .wrapper {
@@ -119,14 +124,24 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.3em;
+  background-color: slategray;
   height: 300px;
   width: 30%;
   display:flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
+
+.div-1 {
+    border-right: 2px solid white;
+}
+
+.div-2 {
+    border-right: 2px solid white;
+}
+
 
 
 
